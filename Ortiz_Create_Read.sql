@@ -8,7 +8,7 @@ INSERT INTO catalog (ProductID, ProductName,ProductDescription, ProductCost, Qua
 
 --Create Shopping cart page table 
 CREATE TABLE cart (
-  ProductID VARCHAR(50) NOT NULL,
+  ProductID INT NOT NULL,
   ProductName VARCHAR(100) NOT NULL,
   QuantityOrder INT NOT NULL,
   ProductCost DECIMAL(10,2) NOT NULL,
